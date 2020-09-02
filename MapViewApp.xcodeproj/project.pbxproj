@@ -14,6 +14,7 @@
 		4E10F05D24FEBAB5004F391D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E10F05B24FEBAB5004F391D /* LaunchScreen.storyboard */; };
 		4E10F06024FEBAB5004F391D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10F05F24FEBAB5004F391D /* main.m */; };
 		4E10F06824FEE9D6004F391D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E10F06724FEE9D6004F391D /* MapKit.framework */; };
+		4E10F06B24FF2DD5004F391D /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E10F06A24FF2DD5004F391D /* MapPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		4E10F05E24FEBAB5004F391D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E10F05F24FEBAB5004F391D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E10F06724FEE9D6004F391D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4E10F06924FF2DD5004F391D /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		4E10F06A24FF2DD5004F391D /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				4E10F05124FEBAB5004F391D /* AppDelegate.m */,
 				4E10F05324FEBAB5004F391D /* ViewController.h */,
 				4E10F05424FEBAB5004F391D /* ViewController.m */,
+				4E10F06924FF2DD5004F391D /* MapPin.h */,
+				4E10F06A24FF2DD5004F391D /* MapPin.m */,
 				4E10F05624FEBAB5004F391D /* Main.storyboard */,
 				4E10F05924FEBAB5004F391D /* Assets.xcassets */,
 				4E10F05B24FEBAB5004F391D /* LaunchScreen.storyboard */,
@@ -158,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E10F06B24FF2DD5004F391D /* MapPin.m in Sources */,
 				4E10F05524FEBAB5004F391D /* ViewController.m in Sources */,
 				4E10F06024FEBAB5004F391D /* main.m in Sources */,
 				4E10F05224FEBAB5004F391D /* AppDelegate.m in Sources */,

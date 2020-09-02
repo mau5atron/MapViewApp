@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import "MapPin.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate> {
+	CLLocationManager *locationManager;
+}
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapViewOutlet;
 
@@ -18,5 +21,6 @@
 - (IBAction)setHybridMap:(id)sender;
 - (IBAction)locateOnMap:(id)sender;
 - (IBAction)directionsTo:(id)sender;
+//- (void)setMapLocation:(double)longitude :(double)latitude;
 @end
 
